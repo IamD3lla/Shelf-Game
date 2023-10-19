@@ -1,0 +1,30 @@
+@font-face {
+  font-family: daydream;
+  src: url(../assets/fonts/Daydream.ttf);
+  font-family: DMsans;
+  src: url(../assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: DMsans;
+  font-weight: bold;
+  background-image: linear-gradient(#43204A, #BE2047);
+  background-repeat: no-repeat;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a :link {
+  color: white;
+}/*# sourceMappingURL=main.css.map */

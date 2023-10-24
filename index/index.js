@@ -12,5 +12,5 @@ window.onload = function getCatchphrase() {
     let phrases = ["It's Shelf + Game!", "We copied Minecraft!", "You're a shame to your family!" , 
                     "Literally a shelf for your games"];
 
-    let showPhrase = document.getElementById("catch").innerHTML = phrases[generateRandomNumber()];
+    document.getElementById("catch").innerHTML = phrases[generateRandomNumber()];
 }

@@ -21,10 +21,42 @@ body {
   background-repeat: no-repeat;
 }
 
+nav {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-right: 70%;
+  padding-left: 0px;
+  padding-bottom: 25px;
+  font-size: 24px;
+}
+
 a {
   color: white;
   text-decoration: none;
 }
 a :link {
   color: white;
+}
+
+#game-box {
+  width: 240.889px;
+  height: 301.111px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #4F8FBC 0%, #8AA4A6 55.73%, #17120E 100%);
+}
+
+#marks {
+  padding-left: 40px;
+}
+
+#game-image {
+  width: 211.432px;
+  height: 211.432px;
+  padding-left: 14.75px;
+  padding-right: 14.75px;
+  padding-top: 68px;
+  padding-bottom: 21.7px;
 }/*# sourceMappingURL=main.css.map */
